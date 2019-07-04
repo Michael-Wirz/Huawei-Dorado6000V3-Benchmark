@@ -1,0 +1,1163 @@
+hostname=host2, be=0, 64-bit, os=Linux, arch=x86-64, fio=fio-3.12, flags=0
+hostname=host1, be=0, 64-bit, os=Linux, arch=x86-64, fio=fio-3.12, flags=0
+hostname=host0, be=0, 64-bit, os=Linux, arch=x86-64, fio=fio-3.12, flags=1
+<host1> test1-subtest1-blocksize8k-threads1-device1of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> test1-subtest1-blocksize8k-threads1-device2of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> test1-subtest1-blocksize8k-threads1-device3of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> test1-subtest1-blocksize8k-threads1-device4of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> test1-subtest2-blocksize8k-threads2-device1of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest2-blocksize8k-threads2-device2of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest2-blocksize8k-threads2-device3of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest2-blocksize8k-threads2-device4of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest3-blocksize8k-threads3-device1of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest3-blocksize8k-threads3-device2of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest3-blocksize8k-threads3-device3of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest3-blocksize8k-threads3-device4of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest4-blocksize8k-threads4-device1of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest4-blocksize8k-threads4-device2of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest4-blocksize8k-threads4-device3of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest4-blocksize8k-threads4-device4of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest5-blocksize8k-threads5-device1of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest5-blocksize8k-threads5-device2of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest5-blocksize8k-threads5-device3of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest5-blocksize8k-threads5-device4of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest6-blocksize8k-threads6-device1of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest6-blocksize8k-threads6-device2of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest6-blocksize8k-threads6-device3of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest6-blocksize8k-threads6-device4of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest7-blocksize8k-threads7-device1of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest7-blocksize8k-threads7-device2of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest7-blocksize8k-threads7-device3of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest7-blocksize8k-threads7-device4of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest8-blocksize8k-threads8-device1of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest8-blocksize8k-threads8-device2of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest8-blocksize8k-threads8-device3of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest8-blocksize8k-threads8-device4of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest9-blocksize8k-threads9-device1of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest9-blocksize8k-threads9-device2of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest9-blocksize8k-threads9-device3of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest9-blocksize8k-threads9-device4of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest10-blocksize8k-threads10-device1of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest10-blocksize8k-threads10-device2of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest10-blocksize8k-threads10-device3of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host1> test1-subtest10-blocksize8k-threads10-device4of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host1> ...
+<host2> test1-subtest1-blocksize8k-threads1-device1of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> test1-subtest1-blocksize8k-threads1-device2of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> test1-subtest1-blocksize8k-threads1-device3of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> test1-subtest1-blocksize8k-threads1-device4of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> test1-subtest2-blocksize8k-threads2-device1of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest2-blocksize8k-threads2-device2of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest2-blocksize8k-threads2-device3of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest2-blocksize8k-threads2-device4of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest3-blocksize8k-threads3-device1of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest3-blocksize8k-threads3-device2of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest3-blocksize8k-threads3-device3of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest3-blocksize8k-threads3-device4of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest4-blocksize8k-threads4-device1of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest4-blocksize8k-threads4-device2of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest4-blocksize8k-threads4-device3of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest4-blocksize8k-threads4-device4of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest5-blocksize8k-threads5-device1of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest5-blocksize8k-threads5-device2of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest5-blocksize8k-threads5-device3of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest5-blocksize8k-threads5-device4of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest6-blocksize8k-threads6-device1of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest6-blocksize8k-threads6-device2of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest6-blocksize8k-threads6-device3of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest6-blocksize8k-threads6-device4of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest7-blocksize8k-threads7-device1of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest7-blocksize8k-threads7-device2of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest7-blocksize8k-threads7-device3of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest7-blocksize8k-threads7-device4of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest8-blocksize8k-threads8-device1of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest8-blocksize8k-threads8-device2of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest8-blocksize8k-threads8-device3of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest8-blocksize8k-threads8-device4of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest9-blocksize8k-threads9-device1of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest9-blocksize8k-threads9-device2of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest9-blocksize8k-threads9-device3of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest9-blocksize8k-threads9-device4of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest10-blocksize8k-threads10-device1of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest10-blocksize8k-threads10-device2of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest10-blocksize8k-threads10-device3of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host2> test1-subtest10-blocksize8k-threads10-device4of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host2> ...
+<host1> Starting 220 processes
+<host2> Starting 220 processes
+<host0> test1-subtest1-blocksize8k-threads1-device1of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> test1-subtest1-blocksize8k-threads1-device2of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> test1-subtest1-blocksize8k-threads1-device3of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> test1-subtest1-blocksize8k-threads1-device4of4: (g=0): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> test1-subtest2-blocksize8k-threads2-device1of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest2-blocksize8k-threads2-device2of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest2-blocksize8k-threads2-device3of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest2-blocksize8k-threads2-device4of4: (g=1): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest3-blocksize8k-threads3-device1of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest3-blocksize8k-threads3-device2of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest3-blocksize8k-threads3-device3of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest3-blocksize8k-threads3-device4of4: (g=2): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest4-blocksize8k-threads4-device1of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest4-blocksize8k-threads4-device2of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest4-blocksize8k-threads4-device3of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest4-blocksize8k-threads4-device4of4: (g=3): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest5-blocksize8k-threads5-device1of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest5-blocksize8k-threads5-device2of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest5-blocksize8k-threads5-device3of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest5-blocksize8k-threads5-device4of4: (g=4): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest6-blocksize8k-threads6-device1of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest6-blocksize8k-threads6-device2of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest6-blocksize8k-threads6-device3of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest6-blocksize8k-threads6-device4of4: (g=5): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest7-blocksize8k-threads7-device1of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest7-blocksize8k-threads7-device2of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest7-blocksize8k-threads7-device3of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest7-blocksize8k-threads7-device4of4: (g=6): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest8-blocksize8k-threads8-device1of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest8-blocksize8k-threads8-device2of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest8-blocksize8k-threads8-device3of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest8-blocksize8k-threads8-device4of4: (g=7): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest9-blocksize8k-threads9-device1of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest9-blocksize8k-threads9-device2of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest9-blocksize8k-threads9-device3of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest9-blocksize8k-threads9-device4of4: (g=8): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest10-blocksize8k-threads10-device1of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest10-blocksize8k-threads10-device2of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest10-blocksize8k-threads10-device3of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> test1-subtest10-blocksize8k-threads10-device4of4: (g=9): rw=randread, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=libaio, iodepth=1
+<host0> ...
+<host0> Starting 220 processes
+<host2> 
+test1-subtest1-blocksize8k-threads1-device1of4: (groupid=0, jobs=4): err= 0: pid=12976: Sun Jan 13 05:21:00 2019
+  read: IOPS=11.0k, BW=93.5MiB/s (98.1MB/s)(5611MiB/60001msec)
+    slat (nsec): min=2876, max=82242, avg=3476.65, stdev=542.70
+    clat (usec): min=40, max=92641, avg=330.03, stdev=210.29
+     lat (usec): min=48, max=92644, avg=333.60, stdev=210.31
+    clat percentiles (usec):
+     |  1.00th=[   78],  5.00th=[  123], 10.00th=[  253], 20.00th=[  281],
+     | 30.00th=[  297], 40.00th=[  314], 50.00th=[  326], 60.00th=[  334],
+     | 70.00th=[  347], 80.00th=[  363], 90.00th=[  404], 95.00th=[  469],
+     | 99.00th=[  693], 99.50th=[ 1303], 99.90th=[ 2671], 99.95th=[ 3261],
+     | 99.99th=[ 4883]
+   bw (  KiB/s): min=89448, max=101879, per=99.77%, avg=95534.33, stdev=650.37, samples=476
+   iops        : min=11179, max=12734, avg=11940.67, stdev=81.37, samples=476
+  lat (usec)   : 50=0.02%, 100=3.92%, 250=5.57%, 500=88.30%, 750=1.31%
+  lat (usec)   : 1000=0.21%
+  lat (msec)   : 2=0.42%, 4=0.23%, 10=0.03%, 20=0.01%, 100=0.01%
+  cpu          : usr=0.35%, sys=1.40%, ctx=718727, majf=0, minf=60
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=718176,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest2-blocksize8k-threads2-device1of4: (groupid=1, jobs=8): err= 0: pid=13197: Sun Jan 13 05:21:00 2019
+  read: IOPS=22.7k, BW=177MiB/s (186MB/s)(10.4GiB/60002msec)
+    slat (nsec): min=2298, max=72990, avg=4082.53, stdev=936.63
+    clat (usec): min=65, max=90474, avg=347.86, stdev=217.86
+     lat (usec): min=68, max=90478, avg=352.03, stdev=217.86
+    clat percentiles (usec):
+     |  1.00th=[   86],  5.00th=[  143], 10.00th=[  204], 20.00th=[  281],
+     | 30.00th=[  306], 40.00th=[  326], 50.00th=[  343], 60.00th=[  359],
+     | 70.00th=[  388], 80.00th=[  400], 90.00th=[  482], 95.00th=[  498],
+     | 99.00th=[  644], 99.50th=[  693], 99.90th=[ 2376], 99.95th=[ 3163],
+     | 99.99th=[ 5604]
+   bw (  KiB/s): min=164234, max=187542, per=99.76%, avg=181053.48, stdev=442.47, samples=953
+   iops        : min=20528, max=23442, avg=22628.96, stdev=55.30, samples=953
+  lat (usec)   : 100=1.72%, 250=11.65%, 500=82.27%, 750=3.97%, 1000=0.08%
+  lat (msec)   : 2=0.18%, 4=0.11%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.32%, sys=1.57%, ctx=1362439, majf=0, minf=121
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=1361263,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest3-blocksize8k-threads3-device1of4: (groupid=2, jobs=12): err= 0: pid=13416: Sun Jan 13 05:21:00 2019
+  read: IOPS=34.0k, BW=273MiB/s (287MB/s)(16.0GiB/60001msec)
+    slat (nsec): min=2247, max=85577, avg=4433.88, stdev=1303.23
+    clat (usec): min=63, max=91172, avg=337.85, stdev=201.83
+     lat (usec): min=68, max=91179, avg=342.37, stdev=201.81
+    clat percentiles (usec):
+     |  1.00th=[   98],  5.00th=[  141], 10.00th=[  190], 20.00th=[  225],
+     | 30.00th=[  289], 40.00th=[  318], 50.00th=[  343], 60.00th=[  367],
+     | 70.00th=[  392], 80.00th=[  400], 90.00th=[  478], 95.00th=[  498],
+     | 99.00th=[  652], 99.50th=[  693], 99.90th=[ 2147], 99.95th=[ 3130],
+     | 99.99th=[ 5342]
+   bw (  KiB/s): min=159430, max=288949, per=83.91%, avg=234863.76, stdev=3921.87, samples=1428
+   iops        : min=19928, max=36118, avg=29355.65, stdev=490.31, samples=1428
+  lat (usec)   : 100=1.09%, 250=22.07%, 500=71.97%, 750=4.55%, 1000=0.07%
+  lat (msec)   : 2=0.12%, 4=0.09%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.34%, sys=1.76%, ctx=2102281, majf=0, minf=174
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2099407,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest4-blocksize8k-threads4-device1of4: (groupid=3, jobs=16): err= 0: pid=13662: Sun Jan 13 05:21:00 2019
+  read: IOPS=45.3k, BW=354MiB/s (371MB/s)(20.8GiB/60001msec)
+    slat (nsec): min=2130, max=75215, avg=4998.10, stdev=1871.99
+    clat (usec): min=59, max=90105, avg=347.24, stdev=209.31
+     lat (usec): min=67, max=90111, avg=352.33, stdev=209.26
+    clat percentiles (usec):
+     |  1.00th=[  117],  5.00th=[  153], 10.00th=[  192], 20.00th=[  233],
+     | 30.00th=[  297], 40.00th=[  330], 50.00th=[  355], 60.00th=[  379],
+     | 70.00th=[  396], 80.00th=[  404], 90.00th=[  482], 95.00th=[  510],
+     | 99.00th=[  676], 99.50th=[  701], 99.90th=[ 2212], 99.95th=[ 3130],
+     | 99.99th=[ 6390]
+   bw (  KiB/s): min=248586, max=365144, per=74.18%, avg=269054.74, stdev=694.12, samples=1904
+   iops        : min=31068, max=45638, avg=33626.73, stdev=86.77, samples=1904
+  lat (usec)   : 100=0.61%, 250=21.34%, 500=72.52%, 750=5.17%, 1000=0.11%
+  lat (msec)   : 2=0.13%, 4=0.10%, 10=0.02%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.33%, sys=1.91%, ctx=2724676, majf=0, minf=235
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2720203,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest5-blocksize8k-threads5-device1of4: (groupid=4, jobs=20): err= 0: pid=13865: Sun Jan 13 05:21:00 2019
+  read: IOPS=54.7k, BW=427MiB/s (448MB/s)(25.0GiB/60002msec)
+    slat (nsec): min=2216, max=91602, avg=5564.12, stdev=2412.25
+    clat (usec): min=61, max=89864, avg=359.66, stdev=183.78
+     lat (usec): min=66, max=89867, avg=365.32, stdev=183.72
+    clat percentiles (usec):
+     |  1.00th=[  123],  5.00th=[  172], 10.00th=[  194], 20.00th=[  277],
+     | 30.00th=[  318], 40.00th=[  351], 50.00th=[  371], 60.00th=[  388],
+     | 70.00th=[  396], 80.00th=[  408], 90.00th=[  482], 95.00th=[  545],
+     | 99.00th=[  693], 99.50th=[  734], 99.90th=[ 2212], 99.95th=[ 2999],
+     | 99.99th=[ 4817]
+   bw (  KiB/s): min=306374, max=436184, per=74.42%, avg=325401.88, stdev=624.59, samples=2380
+   iops        : min=38288, max=54516, avg=40668.18, stdev=78.08, samples=2380
+  lat (usec)   : 100=0.51%, 250=17.31%, 500=75.82%, 750=5.91%, 1000=0.20%
+  lat (msec)   : 2=0.13%, 4=0.10%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.33%, sys=2.03%, ctx=3286032, majf=0, minf=293
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3279350,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest6-blocksize8k-threads6-device1of4: (groupid=5, jobs=24): err= 0: pid=14113: Sun Jan 13 05:21:00 2019
+  read: IOPS=63.4k, BW=495MiB/s (519MB/s)(29.0GiB/60002msec)
+    slat (nsec): min=2278, max=95396, avg=5937.47, stdev=2840.10
+    clat (usec): min=51, max=28826, avg=371.80, stdev=180.45
+     lat (usec): min=68, max=28835, avg=377.83, stdev=180.40
+    clat percentiles (usec):
+     |  1.00th=[  125],  5.00th=[  188], 10.00th=[  202], 20.00th=[  289],
+     | 30.00th=[  330], 40.00th=[  359], 50.00th=[  383], 60.00th=[  392],
+     | 70.00th=[  400], 80.00th=[  416], 90.00th=[  490], 95.00th=[  586],
+     | 99.00th=[  701], 99.50th=[  783], 99.90th=[ 2573], 99.95th=[ 3589],
+     | 99.99th=[ 6063]
+   bw (  KiB/s): min=363950, max=512191, per=74.65%, avg=378674.99, stdev=617.89, samples=2856
+   iops        : min=45486, max=64017, avg=47325.75, stdev=77.25, samples=2856
+  lat (usec)   : 100=0.53%, 250=14.31%, 500=77.68%, 750=6.79%, 1000=0.41%
+  lat (msec)   : 2=0.13%, 4=0.11%, 10=0.04%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.33%, sys=2.07%, ctx=3819287, majf=0, minf=358
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3804774,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest7-blocksize8k-threads7-device1of4: (groupid=6, jobs=28): err= 0: pid=14369: Sun Jan 13 05:21:00 2019
+  read: IOPS=69.0k, BW=539MiB/s (566MB/s)(31.6GiB/60002msec)
+    slat (usec): min=2, max=108, avg= 6.13, stdev= 3.26
+    clat (usec): min=39, max=25284, avg=398.58, stdev=180.53
+     lat (usec): min=68, max=25294, avg=404.80, stdev=180.54
+    clat percentiles (usec):
+     |  1.00th=[  159],  5.00th=[  217], 10.00th=[  293], 20.00th=[  334],
+     | 30.00th=[  363], 40.00th=[  383], 50.00th=[  392], 60.00th=[  396],
+     | 70.00th=[  404], 80.00th=[  424], 90.00th=[  494], 95.00th=[  611],
+     | 99.00th=[  766], 99.50th=[  791], 99.90th=[ 2671], 99.95th=[ 3556],
+     | 99.99th=[ 6063]
+   bw (  KiB/s): min=397517, max=553476, per=75.17%, avg=415228.31, stdev=552.37, samples=3333
+   iops        : min=49678, max=69177, avg=51893.49, stdev=69.06, samples=3333
+  lat (usec)   : 50=0.01%, 100=0.31%, 250=5.91%, 500=84.74%, 750=7.79%
+  lat (usec)   : 1000=0.89%
+  lat (msec)   : 2=0.19%, 4=0.13%, 10=0.04%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.33%, sys=1.98%, ctx=4170567, majf=0, minf=411
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=4143119,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest8-blocksize8k-threads8-device1of4: (groupid=7, jobs=32): err= 0: pid=14584: Sun Jan 13 05:21:00 2019
+  read: IOPS=74.0k, BW=586MiB/s (614MB/s)(34.3GiB/60002msec)
+    slat (usec): min=2, max=130, avg= 6.90, stdev= 4.03
+    clat (usec): min=50, max=91600, avg=418.99, stdev=185.45
+     lat (usec): min=70, max=91604, avg=425.98, stdev=185.48
+    clat percentiles (usec):
+     |  1.00th=[  247],  5.00th=[  310], 10.00th=[  338], 20.00th=[  367],
+     | 30.00th=[  379], 40.00th=[  388], 50.00th=[  396], 60.00th=[  400],
+     | 70.00th=[  412], 80.00th=[  437], 90.00th=[  494], 95.00th=[  627],
+     | 99.00th=[  783], 99.50th=[  816], 99.90th=[ 2999], 99.95th=[ 3949],
+     | 99.99th=[ 5932]
+   bw (  KiB/s): min=476200, max=603929, per=83.35%, avg=500013.15, stdev=449.84, samples=3808
+   iops        : min=59511, max=75481, avg=62490.63, stdev=56.22, samples=3808
+  lat (usec)   : 100=0.14%, 250=0.89%, 500=90.00%, 750=7.20%, 1000=1.35%
+  lat (msec)   : 2=0.21%, 4=0.16%, 10=0.05%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.32%, sys=2.07%, ctx=4543403, majf=0, minf=470
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=4499471,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest9-blocksize8k-threads9-device1of4: (groupid=8, jobs=36): err= 0: pid=14852: Sun Jan 13 05:21:00 2019
+  read: IOPS=89.1k, BW=696MiB/s (730MB/s)(40.8GiB/60002msec)
+    slat (usec): min=2, max=124, avg= 6.82, stdev= 4.08
+    clat (usec): min=41, max=39298, avg=396.51, stdev=182.59
+     lat (usec): min=67, max=39306, avg=403.42, stdev=182.59
+    clat percentiles (usec):
+     |  1.00th=[  114],  5.00th=[  198], 10.00th=[  273], 20.00th=[  326],
+     | 30.00th=[  363], 40.00th=[  379], 50.00th=[  392], 60.00th=[  396],
+     | 70.00th=[  408], 80.00th=[  433], 90.00th=[  498], 95.00th=[  627],
+     | 99.00th=[  775], 99.50th=[  799], 99.90th=[ 2900], 99.95th=[ 3785],
+     | 99.99th=[ 5669]
+   bw (  KiB/s): min=491428, max=716797, per=71.84%, avg=511895.66, stdev=591.91, samples=4285
+   iops        : min=61412, max=89586, avg=63972.86, stdev=73.99, samples=4285
+  lat (usec)   : 50=0.01%, 100=0.60%, 250=7.76%, 500=81.75%, 750=8.50%
+  lat (usec)   : 1000=1.02%
+  lat (msec)   : 2=0.18%, 4=0.15%, 10=0.04%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.35%, sys=2.17%, ctx=5413621, majf=0, minf=533
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=5344172,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest10-blocksize8k-threads10-device1of4: (groupid=9, jobs=40): err= 0: pid=15097: Sun Jan 13 05:21:00 2019
+  read: IOPS=101k, BW=789MiB/s (828MB/s)(46.2GiB/60002msec)
+    slat (usec): min=2, max=134, avg= 7.36, stdev= 4.66
+    clat (nsec): min=638, max=81844k, avg=387677.75, stdev=182997.91
+     lat (usec): min=69, max=81848, avg=395.13, stdev=182.97
+    clat percentiles (usec):
+     |  1.00th=[  101],  5.00th=[  184], 10.00th=[  233], 20.00th=[  310],
+     | 30.00th=[  351], 40.00th=[  375], 50.00th=[  388], 60.00th=[  396],
+     | 70.00th=[  404], 80.00th=[  433], 90.00th=[  498], 95.00th=[  619],
+     | 99.00th=[  766], 99.50th=[  791], 99.90th=[ 2802], 99.95th=[ 3589],
+     | 99.99th=[ 5276]
+   bw (  KiB/s): min=773452, max=835217, per=99.99%, avg=808111.72, stdev=288.06, samples=4764
+   iops        : min=96681, max=104401, avg=101012.89, stdev=36.00, samples=4764
+  lat (nsec)   : 750=0.01%
+  lat (usec)   : 50=0.01%, 100=0.94%, 250=10.22%, 500=78.94%, 750=8.70%
+  lat (usec)   : 1000=0.85%
+  lat (msec)   : 2=0.16%, 4=0.15%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.37%, sys=2.35%, ctx=6164124, majf=0, minf=592
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=6061811,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=93.5MiB/s (98.1MB/s), 93.5MiB/s-93.5MiB/s (98.1MB/s-98.1MB/s), io=5611MiB (5883MB), run=60001-60001msec
+
+Run status group 1 (all jobs):
+   READ: bw=177MiB/s (186MB/s), 177MiB/s-177MiB/s (186MB/s-186MB/s), io=10.4GiB (11.2GB), run=60002-60002msec
+
+Run status group 2 (all jobs):
+   READ: bw=273MiB/s (287MB/s), 273MiB/s-273MiB/s (287MB/s-287MB/s), io=16.0GiB (17.2GB), run=60001-60001msec
+
+Run status group 3 (all jobs):
+   READ: bw=354MiB/s (371MB/s), 354MiB/s-354MiB/s (371MB/s-371MB/s), io=20.8GiB (22.3GB), run=60001-60001msec
+
+Run status group 4 (all jobs):
+   READ: bw=427MiB/s (448MB/s), 427MiB/s-427MiB/s (448MB/s-448MB/s), io=25.0GiB (26.9GB), run=60002-60002msec
+
+Run status group 5 (all jobs):
+   READ: bw=495MiB/s (519MB/s), 495MiB/s-495MiB/s (519MB/s-519MB/s), io=29.0GiB (31.2GB), run=60002-60002msec
+
+Run status group 6 (all jobs):
+   READ: bw=539MiB/s (566MB/s), 539MiB/s-539MiB/s (566MB/s-566MB/s), io=31.6GiB (33.9GB), run=60002-60002msec
+
+Run status group 7 (all jobs):
+   READ: bw=586MiB/s (614MB/s), 586MiB/s-586MiB/s (614MB/s-614MB/s), io=34.3GiB (36.9GB), run=60002-60002msec
+
+Run status group 8 (all jobs):
+   READ: bw=696MiB/s (730MB/s), 696MiB/s-696MiB/s (730MB/s-730MB/s), io=40.8GiB (43.8GB), run=60002-60002msec
+
+Run status group 9 (all jobs):
+   READ: bw=789MiB/s (828MB/s), 789MiB/s-789MiB/s (828MB/s-828MB/s), io=46.2GiB (49.7GB), run=60002-60002msec
+
+Disk stats (read/write):
+  dm-20: ios=8546275/0, merge=0/0, ticks=3573265/0, in_queue=3585221, util=99.73%
+
+Disk stats (read/write):
+  sdg: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdan: ios=4273220/0, merge=0/0, ticks=1715911/0, in_queue=1714095, util=54.68%
+
+Disk stats (read/write):
+  sdbu: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sddb: ios=4273228/0, merge=0/0, ticks=1717498/0, in_queue=1715877, util=54.64%
+
+Disk stats (read/write):
+  dm-21: ios=8428996/0, merge=0/0, ticks=3572264/0, in_queue=3578205, util=99.64%
+
+Disk stats (read/write):
+  sdc: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdaj: ios=4214515/0, merge=0/0, ticks=1716291/0, in_queue=1714447, util=54.81%
+
+Disk stats (read/write):
+  sdbq: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdcx: ios=4214522/0, merge=0/0, ticks=1719298/0, in_queue=1717501, util=54.76%
+
+Disk stats (read/write):
+  dm-22: ios=10716558/0, merge=0/0, ticks=3574817/0, in_queue=3584053, util=99.71%
+
+Disk stats (read/write):
+  sdag: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdbn: ios=5358550/0, merge=0/0, ticks=1695945/0, in_queue=1693983, util=54.86%
+
+Disk stats (read/write):
+  sdcu: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdeb: ios=5358543/0, merge=0/0, ticks=1695468/0, in_queue=1693557, util=54.68%
+
+Disk stats (read/write):
+  dm-23: ios=9174091/0, merge=0/0, ticks=3571604/0, in_queue=3602822, util=99.88%
+
+Disk stats (read/write):
+  sdf: ios=4587197/0, merge=0/0, ticks=1712817/0, in_queue=1710774, util=53.77%
+
+Disk stats (read/write):
+  sdam: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdbt: ios=4587172/0, merge=0/0, ticks=1715511/0, in_queue=1713642, util=53.80%
+
+Disk stats (read/write):
+  sdda: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+<host1> 
+test1-subtest1-blocksize8k-threads1-device1of4: (groupid=0, jobs=4): err= 0: pid=5492: Sun Jan 13 05:21:00 2019
+  read: IOPS=11.6k, BW=90.6MiB/s (95.0MB/s)(5438MiB/60001msec)
+    slat (nsec): min=2507, max=14521, avg=2955.28, stdev=290.95
+    clat (usec): min=51, max=15036, avg=341.28, stdev=163.27
+     lat (usec): min=54, max=15040, avg=344.28, stdev=163.27
+    clat percentiles (usec):
+     |  1.00th=[  262],  5.00th=[  277], 10.00th=[  285], 20.00th=[  297],
+     | 30.00th=[  310], 40.00th=[  318], 50.00th=[  326], 60.00th=[  330],
+     | 70.00th=[  338], 80.00th=[  351], 90.00th=[  375], 95.00th=[  424],
+     | 99.00th=[  635], 99.50th=[ 1303], 99.90th=[ 2638], 99.95th=[ 3130],
+     | 99.99th=[ 4686]
+   bw (  KiB/s): min=87639, max=97356, per=99.74%, avg=92559.93, stdev=492.33, samples=476
+   iops        : min=10953, max=12166, avg=11568.97, stdev=61.54, samples=476
+  lat (usec)   : 100=0.01%, 250=0.20%, 500=98.04%, 750=0.88%, 1000=0.12%
+  lat (msec)   : 2=0.50%, 4=0.23%, 10=0.02%, 20=0.01%
+  cpu          : usr=0.23%, sys=1.18%, ctx=696063, majf=0, minf=63
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=696027,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest2-blocksize8k-threads2-device1of4: (groupid=1, jobs=8): err= 0: pid=5719: Sun Jan 13 05:21:00 2019
+  read: IOPS=25.4k, BW=198MiB/s (208MB/s)(11.6GiB/60001msec)
+    slat (nsec): min=1995, max=80994, avg=3171.66, stdev=547.94
+    clat (usec): min=60, max=23455, avg=311.29, stdev=169.74
+     lat (usec): min=70, max=23458, avg=314.50, stdev=169.76
+    clat percentiles (usec):
+     |  1.00th=[   80],  5.00th=[  119], 10.00th=[  143], 20.00th=[  241],
+     | 30.00th=[  273], 40.00th=[  289], 50.00th=[  310], 60.00th=[  326],
+     | 70.00th=[  343], 80.00th=[  379], 90.00th=[  441], 95.00th=[  490],
+     | 99.00th=[  603], 99.50th=[  652], 99.90th=[ 2147], 99.95th=[ 2933],
+     | 99.99th=[ 5014]
+   bw (  KiB/s): min=176461, max=204952, per=91.28%, avg=185421.61, stdev=425.07, samples=952
+   iops        : min=22054, max=25617, avg=23174.43, stdev=53.15, samples=952
+  lat (usec)   : 100=3.98%, 250=18.44%, 500=74.14%, 750=3.10%, 1000=0.07%
+  lat (msec)   : 2=0.15%, 4=0.09%, 10=0.02%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.30%, sys=1.40%, ctx=1524610, majf=0, minf=126
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=1523466,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest3-blocksize8k-threads3-device1of4: (groupid=2, jobs=12): err= 0: pid=6052: Sun Jan 13 05:21:00 2019
+  read: IOPS=35.1k, BW=274MiB/s (287MB/s)(16.1GiB/60001msec)
+    slat (nsec): min=1983, max=89072, avg=3367.78, stdev=713.34
+    clat (usec): min=63, max=67994, avg=337.97, stdev=183.90
+     lat (usec): min=69, max=68001, avg=341.38, stdev=183.88
+    clat percentiles (usec):
+     |  1.00th=[   91],  5.00th=[  145], 10.00th=[  196], 20.00th=[  255],
+     | 30.00th=[  285], 40.00th=[  310], 50.00th=[  326], 60.00th=[  347],
+     | 70.00th=[  379], 80.00th=[  416], 90.00th=[  482], 95.00th=[  510],
+     | 99.00th=[  619], 99.50th=[  660], 99.90th=[ 2180], 99.95th=[ 3064],
+     | 99.99th=[ 5342]
+   bw (  KiB/s): min=262098, max=289245, per=99.72%, avg=279934.55, stdev=377.16, samples=1428
+   iops        : min=32760, max=36153, avg=34986.10, stdev=47.21, samples=1428
+  lat (usec)   : 100=1.41%, 250=17.48%, 500=75.09%, 750=5.73%, 1000=0.05%
+  lat (msec)   : 2=0.13%, 4=0.09%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.26%, sys=1.39%, ctx=2106409, majf=0, minf=183
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2105433,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest4-blocksize8k-threads4-device1of4: (groupid=3, jobs=16): err= 0: pid=6305: Sun Jan 13 05:21:00 2019
+  read: IOPS=44.7k, BW=350MiB/s (366MB/s)(20.5GiB/60001msec)
+    slat (usec): min=2, max=106, avg= 3.94, stdev= 1.32
+    clat (usec): min=65, max=84015, avg=353.00, stdev=206.85
+     lat (usec): min=68, max=84019, avg=356.98, stdev=206.86
+    clat percentiles (usec):
+     |  1.00th=[  115],  5.00th=[  182], 10.00th=[  212], 20.00th=[  273],
+     | 30.00th=[  297], 40.00th=[  318], 50.00th=[  338], 60.00th=[  359],
+     | 70.00th=[  388], 80.00th=[  424], 90.00th=[  490], 95.00th=[  553],
+     | 99.00th=[  644], 99.50th=[  676], 99.90th=[ 2311], 99.95th=[ 3228],
+     | 99.99th=[ 6587]
+   bw (  KiB/s): min=271425, max=365697, per=83.83%, avg=300011.61, stdev=662.62, samples=1905
+   iops        : min=33923, max=45704, avg=37493.79, stdev=82.79, samples=1905
+  lat (usec)   : 100=0.64%, 250=14.44%, 500=76.87%, 750=7.72%, 1000=0.06%
+  lat (msec)   : 2=0.14%, 4=0.10%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.31%, sys=1.57%, ctx=2688830, majf=0, minf=248
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2684251,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest5-blocksize8k-threads5-device1of4: (groupid=4, jobs=20): err= 0: pid=6590: Sun Jan 13 05:21:00 2019
+  read: IOPS=52.5k, BW=410MiB/s (430MB/s)(24.0GiB/60002msec)
+    slat (nsec): min=1989, max=61819, avg=4128.76, stdev=1567.76
+    clat (usec): min=65, max=60719, avg=376.25, stdev=165.33
+     lat (usec): min=68, max=60729, avg=380.42, stdev=165.33
+    clat percentiles (usec):
+     |  1.00th=[  139],  5.00th=[  221], 10.00th=[  277], 20.00th=[  306],
+     | 30.00th=[  326], 40.00th=[  343], 50.00th=[  359], 60.00th=[  375],
+     | 70.00th=[  396], 80.00th=[  429], 90.00th=[  498], 95.00th=[  578],
+     | 99.00th=[  668], 99.50th=[  701], 99.90th=[ 2311], 99.95th=[ 3163],
+     | 99.99th=[ 4817]
+   bw (  KiB/s): min=338018, max=425103, per=84.78%, avg=355939.87, stdev=496.88, samples=2380
+   iops        : min=42247, max=53127, avg=44485.13, stdev=62.10, samples=2380
+  lat (usec)   : 100=0.35%, 250=6.43%, 500=83.37%, 750=9.49%, 1000=0.07%
+  lat (msec)   : 2=0.16%, 4=0.11%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.32%, sys=1.50%, ctx=3154454, majf=0, minf=309
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3148800,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest6-blocksize8k-threads6-device1of4: (groupid=5, jobs=24): err= 0: pid=6916: Sun Jan 13 05:21:00 2019
+  read: IOPS=65.3k, BW=510MiB/s (535MB/s)(29.9GiB/60002msec)
+    slat (nsec): min=1981, max=102157, avg=4453.77, stdev=1884.21
+    clat (usec): min=60, max=97239, avg=362.55, stdev=192.91
+     lat (usec): min=68, max=97242, avg=367.05, stdev=192.88
+    clat percentiles (usec):
+     |  1.00th=[  141],  5.00th=[  192], 10.00th=[  217], 20.00th=[  285],
+     | 30.00th=[  318], 40.00th=[  343], 50.00th=[  359], 60.00th=[  375],
+     | 70.00th=[  392], 80.00th=[  412], 90.00th=[  478], 95.00th=[  553],
+     | 99.00th=[  660], 99.50th=[  701], 99.90th=[ 2573], 99.95th=[ 3458],
+     | 99.99th=[ 5800]
+   bw (  KiB/s): min=419199, max=532657, per=85.25%, avg=445092.82, stdev=536.20, samples=2856
+   iops        : min=52395, max=66573, avg=55628.64, stdev=67.01, samples=2856
+  lat (usec)   : 100=0.33%, 250=13.89%, 500=78.20%, 750=7.22%, 1000=0.08%
+  lat (msec)   : 2=0.14%, 4=0.12%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.35%, sys=1.64%, ctx=3923941, majf=0, minf=365
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3915889,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest7-blocksize8k-threads7-device1of4: (groupid=6, jobs=28): err= 0: pid=7165: Sun Jan 13 05:21:00 2019
+  read: IOPS=74.5k, BW=582MiB/s (610MB/s)(34.1GiB/60002msec)
+    slat (nsec): min=1989, max=87958, avg=4713.75, stdev=2133.68
+    clat (usec): min=53, max=21695, avg=370.54, stdev=182.13
+     lat (usec): min=68, max=21701, avg=375.30, stdev=182.06
+    clat percentiles (usec):
+     |  1.00th=[  133],  5.00th=[  192], 10.00th=[  221], 20.00th=[  285],
+     | 30.00th=[  314], 40.00th=[  343], 50.00th=[  363], 60.00th=[  383],
+     | 70.00th=[  400], 80.00th=[  429], 90.00th=[  502], 95.00th=[  586],
+     | 99.00th=[  685], 99.50th=[  742], 99.90th=[ 2507], 99.95th=[ 3458],
+     | 99.99th=[ 6128]
+   bw (  KiB/s): min=453360, max=604145, per=83.56%, avg=497779.71, stdev=1271.29, samples=3334
+   iops        : min=56662, max=75513, avg=62214.47, stdev=158.94, samples=3334
+  lat (usec)   : 100=0.53%, 250=13.19%, 500=76.05%, 750=9.76%, 1000=0.16%
+  lat (msec)   : 2=0.16%, 4=0.11%, 10=0.03%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.38%, sys=1.67%, ctx=4479378, majf=0, minf=430
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=4467929,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest8-blocksize8k-threads8-device1of4: (groupid=7, jobs=32): err= 0: pid=7482: Sun Jan 13 05:21:00 2019
+  read: IOPS=85.6k, BW=669MiB/s (701MB/s)(39.2GiB/60002msec)
+    slat (nsec): min=2017, max=96809, avg=4875.14, stdev=2291.11
+    clat (usec): min=28, max=74482, avg=368.08, stdev=180.38
+     lat (usec): min=68, max=74491, avg=373.00, stdev=180.31
+    clat percentiles (usec):
+     |  1.00th=[  102],  5.00th=[  188], 10.00th=[  215], 20.00th=[  277],
+     | 30.00th=[  306], 40.00th=[  330], 50.00th=[  359], 60.00th=[  383],
+     | 70.00th=[  404], 80.00th=[  441], 90.00th=[  523], 95.00th=[  586],
+     | 99.00th=[  693], 99.50th=[  742], 99.90th=[ 2638], 99.95th=[ 3589],
+     | 99.99th=[ 5538]
+   bw (  KiB/s): min=489302, max=694447, per=79.98%, avg=547812.39, stdev=1570.95, samples=3808
+   iops        : min=61152, max=86797, avg=68465.98, stdev=196.38, samples=3808
+  lat (usec)   : 50=0.01%, 100=0.91%, 250=14.18%, 500=73.14%, 750=11.31%
+  lat (usec)   : 1000=0.16%
+  lat (msec)   : 2=0.15%, 4=0.12%, 10=0.04%, 20=0.01%, 100=0.01%
+  cpu          : usr=0.43%, sys=1.72%, ctx=5151488, majf=0, minf=494
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=5137201,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest9-blocksize8k-threads9-device1of4: (groupid=8, jobs=36): err= 0: pid=7804: Sun Jan 13 05:21:00 2019
+  read: IOPS=89.4k, BW=698MiB/s (732MB/s)(40.9GiB/60002msec)
+    slat (nsec): min=1955, max=120329, avg=4929.62, stdev=2375.44
+    clat (usec): min=64, max=11202, avg=397.08, stdev=187.34
+     lat (usec): min=68, max=11207, avg=402.06, stdev=187.34
+    clat percentiles (usec):
+     |  1.00th=[  112],  5.00th=[  223], 10.00th=[  281], 20.00th=[  318],
+     | 30.00th=[  343], 40.00th=[  367], 50.00th=[  383], 60.00th=[  396],
+     | 70.00th=[  416], 80.00th=[  449], 90.00th=[  545], 95.00th=[  603],
+     | 99.00th=[  734], 99.50th=[  799], 99.90th=[ 3032], 99.95th=[ 3916],
+     | 99.99th=[ 5997]
+   bw (  KiB/s): min=488753, max=732180, per=79.01%, avg=564862.75, stdev=1658.26, samples=4287
+   iops        : min=61083, max=91512, avg=70596.20, stdev=207.31, samples=4287
+  lat (usec)   : 100=0.69%, 250=6.04%, 500=80.65%, 750=11.81%, 1000=0.42%
+  lat (msec)   : 2=0.19%, 4=0.16%, 10=0.05%, 20=0.01%
+  cpu          : usr=0.43%, sys=1.59%, ctx=5379994, majf=0, minf=557
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=5362240,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest10-blocksize8k-threads10-device1of4: (groupid=9, jobs=40): err= 0: pid=8070: Sun Jan 13 05:21:00 2019
+  read: IOPS=114k, BW=894MiB/s (938MB/s)(52.4GiB/60005msec)
+    slat (nsec): min=1882, max=95598, avg=5110.62, stdev=2537.07
+    clat (usec): min=30, max=97557, avg=343.43, stdev=182.47
+     lat (usec): min=66, max=97561, avg=348.59, stdev=182.44
+    clat percentiles (usec):
+     |  1.00th=[   93],  5.00th=[  155], 10.00th=[  194], 20.00th=[  241],
+     | 30.00th=[  281], 40.00th=[  306], 50.00th=[  330], 60.00th=[  359],
+     | 70.00th=[  388], 80.00th=[  420], 90.00th=[  498], 95.00th=[  578],
+     | 99.00th=[  668], 99.50th=[  717], 99.90th=[ 2507], 99.95th=[ 3359],
+     | 99.99th=[ 5211]
+   bw (  KiB/s): min=871775, max=947242, per=99.98%, avg=915757.01, stdev=330.42, samples=4771
+   iops        : min=108970, max=118405, avg=114468.69, stdev=41.31, samples=4771
+  lat (usec)   : 50=0.01%, 100=1.70%, 250=20.09%, 500=68.43%, 750=9.40%
+  lat (usec)   : 1000=0.12%
+  lat (msec)   : 2=0.12%, 4=0.12%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.50%, sys=1.90%, ctx=6893748, majf=0, minf=622
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=6869882,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=90.6MiB/s (95.0MB/s), 90.6MiB/s-90.6MiB/s (95.0MB/s-95.0MB/s), io=5438MiB (5702MB), run=60001-60001msec
+
+Run status group 1 (all jobs):
+   READ: bw=198MiB/s (208MB/s), 198MiB/s-198MiB/s (208MB/s-208MB/s), io=11.6GiB (12.5GB), run=60001-60001msec
+
+Run status group 2 (all jobs):
+   READ: bw=274MiB/s (287MB/s), 274MiB/s-274MiB/s (287MB/s-287MB/s), io=16.1GiB (17.2GB), run=60001-60001msec
+
+Run status group 3 (all jobs):
+   READ: bw=350MiB/s (366MB/s), 350MiB/s-350MiB/s (366MB/s-366MB/s), io=20.5GiB (21.0GB), run=60001-60001msec
+
+Run status group 4 (all jobs):
+   READ: bw=410MiB/s (430MB/s), 410MiB/s-410MiB/s (430MB/s-430MB/s), io=24.0GiB (25.8GB), run=60002-60002msec
+
+Run status group 5 (all jobs):
+   READ: bw=510MiB/s (535MB/s), 510MiB/s-510MiB/s (535MB/s-535MB/s), io=29.9GiB (32.1GB), run=60002-60002msec
+
+Run status group 6 (all jobs):
+   READ: bw=582MiB/s (610MB/s), 582MiB/s-582MiB/s (610MB/s-610MB/s), io=34.1GiB (36.6GB), run=60002-60002msec
+
+Run status group 7 (all jobs):
+   READ: bw=669MiB/s (701MB/s), 669MiB/s-669MiB/s (701MB/s-701MB/s), io=39.2GiB (42.1GB), run=60002-60002msec
+
+Run status group 8 (all jobs):
+   READ: bw=698MiB/s (732MB/s), 698MiB/s-698MiB/s (732MB/s-732MB/s), io=40.9GiB (43.9GB), run=60002-60002msec
+
+Run status group 9 (all jobs):
+   READ: bw=894MiB/s (938MB/s), 894MiB/s-894MiB/s (938MB/s-938MB/s), io=52.4GiB (56.3GB), run=60005-60005msec
+
+Disk stats (read/write):
+  dm-20: ios=9285570/0, merge=0/0, ticks=3546519/0, in_queue=3576751, util=100.00%
+
+Disk stats (read/write):
+  sdm: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdca: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdat: ios=4642837/0, merge=0/0, ticks=1719656/0, in_queue=1719374, util=93.14%
+
+Disk stats (read/write):
+  sddh: ios=4642837/0, merge=0/0, ticks=1715820/0, in_queue=1715530, util=93.12%
+
+Disk stats (read/write):
+  dm-21: ios=9483391/0, merge=0/0, ticks=3547128/0, in_queue=3576946, util=99.99%
+
+Disk stats (read/write):
+  sdce: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdax: ios=4741724/0, merge=0/0, ticks=1719292/0, in_queue=1719005, util=92.75%
+
+Disk stats (read/write):
+  sdq: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sddl: ios=4741723/0, merge=0/0, ticks=1715185/0, in_queue=1714913, util=92.78%
+
+Disk stats (read/write):
+  dm-22: ios=8647807/0, merge=0/0, ticks=3545156/0, in_queue=3569007, util=99.99%
+
+Disk stats (read/write):
+  sddq: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdbc: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdcj: ios=4323922/0, merge=0/0, ticks=1724884/0, in_queue=1724577, util=93.36%
+
+Disk stats (read/write):
+  sdv: ios=4323922/0, merge=0/0, ticks=1725092/0, in_queue=1724803, util=93.39%
+
+Disk stats (read/write):
+  dm-23: ios=11485790/0, merge=0/0, ticks=3533338/0, in_queue=3587202, util=100.00%
+
+Disk stats (read/write):
+  sdcf: ios=5742969/0, merge=0/0, ticks=1696070/0, in_queue=1695741, util=92.04%
+
+Disk stats (read/write):
+  sday: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdr: ios=5742969/0, merge=0/0, ticks=1696027/0, in_queue=1695708, util=92.03%
+
+Disk stats (read/write):
+  sddm: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+<host0> 
+test1-subtest1-blocksize8k-threads1-device1of4: (groupid=0, jobs=4): err= 0: pid=24126: Sun Jan 13 05:21:01 2019
+  read: IOPS=11.4k, BW=89.1MiB/s (93.4MB/s)(5346MiB/60001msec)
+    slat (nsec): min=2580, max=13996, avg=2951.19, stdev=294.25
+    clat (usec): min=39, max=14691, avg=347.19, stdev=162.56
+     lat (usec): min=49, max=14694, avg=350.19, stdev=162.56
+    clat percentiles (usec):
+     |  1.00th=[  265],  5.00th=[  281], 10.00th=[  289], 20.00th=[  302],
+     | 30.00th=[  314], 40.00th=[  322], 50.00th=[  330], 60.00th=[  338],
+     | 70.00th=[  347], 80.00th=[  359], 90.00th=[  396], 95.00th=[  437],
+     | 99.00th=[  635], 99.50th=[ 1319], 99.90th=[ 2638], 99.95th=[ 3064],
+     | 99.99th=[ 4752]
+   bw (  KiB/s): min=86180, max=95377, per=99.67%, avg=90934.34, stdev=498.76, samples=476
+   iops        : min=10771, max=11921, avg=11365.76, stdev=62.40, samples=476
+  lat (usec)   : 50=0.01%, 100=0.01%, 250=0.25%, 500=97.88%, 750=0.98%
+  lat (usec)   : 1000=0.12%
+  lat (msec)   : 2=0.51%, 4=0.22%, 10=0.02%, 20=0.01%
+  cpu          : usr=0.25%, sys=1.16%, ctx=684443, majf=0, minf=63
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=684281,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest2-blocksize8k-threads2-device1of4: (groupid=1, jobs=8): err= 0: pid=24371: Sun Jan 13 05:21:01 2019
+  read: IOPS=22.5k, BW=175MiB/s (184MB/s)(10.3GiB/60001msec)
+    slat (nsec): min=2026, max=35356, avg=3275.89, stdev=593.77
+    clat (usec): min=141, max=80787, avg=352.38, stdev=190.95
+     lat (usec): min=144, max=80791, avg=355.70, stdev=190.95
+    clat percentiles (usec):
+     |  1.00th=[  262],  5.00th=[  277], 10.00th=[  285], 20.00th=[  302],
+     | 30.00th=[  314], 40.00th=[  322], 50.00th=[  330], 60.00th=[  338],
+     | 70.00th=[  351], 80.00th=[  371], 90.00th=[  424], 95.00th=[  494],
+     | 99.00th=[  644], 99.50th=[  725], 99.90th=[ 2507], 99.95th=[ 3294],
+     | 99.99th=[ 5407]
+   bw (  KiB/s): min=163960, max=184546, per=99.60%, avg=178918.43, stdev=380.89, samples=952
+   iops        : min=20491, max=23066, avg=22361.83, stdev=47.66, samples=952
+  lat (usec)   : 250=0.31%, 500=95.76%, 750=3.45%, 1000=0.09%
+  lat (msec)   : 2=0.22%, 4=0.14%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.23%, sys=1.44%, ctx=1349473, majf=0, minf=126
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=1347258,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest3-blocksize8k-threads3-device1of4: (groupid=2, jobs=12): err= 0: pid=24670: Sun Jan 13 05:21:01 2019
+  read: IOPS=31.1k, BW=243MiB/s (255MB/s)(14.2GiB/60002msec)
+    slat (nsec): min=2033, max=91392, avg=3564.54, stdev=996.95
+    clat (usec): min=148, max=93293, avg=381.48, stdev=193.68
+     lat (usec): min=151, max=93297, avg=385.09, stdev=193.67
+    clat percentiles (usec):
+     |  1.00th=[  269],  5.00th=[  285], 10.00th=[  297], 20.00th=[  318],
+     | 30.00th=[  330], 40.00th=[  338], 50.00th=[  351], 60.00th=[  367],
+     | 70.00th=[  392], 80.00th=[  429], 90.00th=[  494], 95.00th=[  545],
+     | 99.00th=[  660], 99.50th=[  701], 99.90th=[ 2474], 99.95th=[ 3490],
+     | 99.99th=[ 5538]
+   bw (  KiB/s): min=229483, max=256016, per=99.56%, avg=247755.19, stdev=336.13, samples=1428
+   iops        : min=28679, max=31997, avg=30962.87, stdev=42.03, samples=1428
+  lat (usec)   : 250=0.14%, 500=92.16%, 750=7.29%, 1000=0.07%
+  lat (msec)   : 2=0.18%, 4=0.12%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.22%, sys=1.50%, ctx=1869801, majf=0, minf=185
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=1866492,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest4-blocksize8k-threads4-device1of4: (groupid=3, jobs=16): err= 0: pid=24940: Sun Jan 13 05:21:01 2019
+  read: IOPS=40.9k, BW=319MiB/s (335MB/s)(18.7GiB/60001msec)
+    slat (nsec): min=1992, max=62010, avg=3942.85, stdev=1353.62
+    clat (usec): min=68, max=83370, avg=387.01, stdev=210.50
+     lat (usec): min=71, max=83373, avg=391.00, stdev=210.48
+    clat percentiles (usec):
+     |  1.00th=[  269],  5.00th=[  293], 10.00th=[  310], 20.00th=[  326],
+     | 30.00th=[  338], 40.00th=[  347], 50.00th=[  359], 60.00th=[  371],
+     | 70.00th=[  388], 80.00th=[  412], 90.00th=[  498], 95.00th=[  594],
+     | 99.00th=[  676], 99.50th=[  709], 99.90th=[ 2606], 99.95th=[ 3589],
+     | 99.99th=[ 7439]
+   bw (  KiB/s): min=228728, max=329783, per=75.22%, avg=245836.55, stdev=598.99, samples=1904
+   iops        : min=28584, max=41215, avg=30722.54, stdev=74.84, samples=1904
+  lat (usec)   : 100=0.01%, 250=0.40%, 500=90.47%, 750=8.71%, 1000=0.07%
+  lat (msec)   : 2=0.18%, 4=0.13%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.26%, sys=1.43%, ctx=2455297, majf=0, minf=247
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2451291,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest5-blocksize8k-threads5-device1of4: (groupid=4, jobs=20): err= 0: pid=25219: Sun Jan 13 05:21:01 2019
+  read: IOPS=50.1k, BW=392MiB/s (411MB/s)(22.0GiB/60001msec)
+    slat (nsec): min=1966, max=64427, avg=4160.96, stdev=1614.85
+    clat (usec): min=154, max=98932, avg=393.97, stdev=188.21
+     lat (usec): min=157, max=98935, avg=398.18, stdev=188.20
+    clat percentiles (usec):
+     |  1.00th=[  277],  5.00th=[  302], 10.00th=[  318], 20.00th=[  334],
+     | 30.00th=[  347], 40.00th=[  359], 50.00th=[  371], 60.00th=[  379],
+     | 70.00th=[  396], 80.00th=[  416], 90.00th=[  494], 95.00th=[  594],
+     | 99.00th=[  685], 99.50th=[  734], 99.90th=[ 2409], 99.95th=[ 3261],
+     | 99.99th=[ 4883]
+   bw (  KiB/s): min=326245, max=403547, per=86.45%, avg=346818.50, stdev=436.45, samples=2380
+   iops        : min=40773, max=50432, avg=43343.46, stdev=54.52, samples=2380
+  lat (usec)   : 250=0.05%, 500=91.00%, 750=8.51%, 1000=0.10%
+  lat (msec)   : 2=0.18%, 4=0.12%, 10=0.03%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.29%, sys=1.43%, ctx=3013638, majf=0, minf=308
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3008749,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest6-blocksize8k-threads6-device1of4: (groupid=5, jobs=24): err= 0: pid=25533: Sun Jan 13 05:21:01 2019
+  read: IOPS=59.7k, BW=467MiB/s (489MB/s)(27.3GiB/60001msec)
+    slat (nsec): min=1948, max=61676, avg=4363.17, stdev=1808.01
+    clat (usec): min=173, max=94008, avg=396.64, stdev=184.90
+     lat (usec): min=177, max=94012, avg=401.06, stdev=184.90
+    clat percentiles (usec):
+     |  1.00th=[  281],  5.00th=[  306], 10.00th=[  322], 20.00th=[  343],
+     | 30.00th=[  355], 40.00th=[  367], 50.00th=[  375], 60.00th=[  388],
+     | 70.00th=[  396], 80.00th=[  412], 90.00th=[  469], 95.00th=[  578],
+     | 99.00th=[  693], 99.50th=[  758], 99.90th=[ 2835], 99.95th=[ 3851],
+     | 99.99th=[ 6390]
+   bw (  KiB/s): min=342053, max=481919, per=75.34%, avg=360061.59, stdev=564.29, samples=2856
+   iops        : min=42748, max=60226, avg=44999.49, stdev=70.53, samples=2856
+  lat (usec)   : 250=0.05%, 500=92.45%, 750=6.97%, 1000=0.15%
+  lat (msec)   : 2=0.18%, 4=0.15%, 10=0.04%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.33%, sys=1.44%, ctx=3592970, majf=0, minf=375
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=3584442,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest7-blocksize8k-threads7-device1of4: (groupid=6, jobs=28): err= 0: pid=25792: Sun Jan 13 05:21:01 2019
+  read: IOPS=67.3k, BW=526MiB/s (551MB/s)(30.8GiB/60002msec)
+    slat (nsec): min=1994, max=85151, avg=4732.18, stdev=2197.76
+    clat (usec): min=168, max=69259, avg=410.71, stdev=191.86
+     lat (usec): min=173, max=69264, avg=415.50, stdev=191.86
+    clat percentiles (usec):
+     |  1.00th=[  285],  5.00th=[  314], 10.00th=[  330], 20.00th=[  355],
+     | 30.00th=[  371], 40.00th=[  379], 50.00th=[  392], 60.00th=[  400],
+     | 70.00th=[  412], 80.00th=[  429], 90.00th=[  486], 95.00th=[  594],
+     | 99.00th=[  725], 99.50th=[  799], 99.90th=[ 2802], 99.95th=[ 3752],
+     | 99.99th=[ 6849]
+   bw (  KiB/s): min=382155, max=541108, per=75.44%, avg=406004.45, stdev=540.64, samples=3332
+   iops        : min=47757, max=67628, avg=50740.08, stdev=67.58, samples=3332
+  lat (usec)   : 250=0.04%, 500=91.38%, 750=7.79%, 1000=0.39%
+  lat (msec)   : 2=0.22%, 4=0.14%, 10=0.04%, 20=0.01%, 100=0.01%
+  cpu          : usr=0.34%, sys=1.49%, ctx=4048739, majf=0, minf=428
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=4036449,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest8-blocksize8k-threads8-device1of4: (groupid=7, jobs=32): err= 0: pid=26099: Sun Jan 13 05:21:01 2019
+  read: IOPS=75.0k, BW=594MiB/s (622MB/s)(34.8GiB/60002msec)
+    slat (nsec): min=2007, max=99670, avg=5007.14, stdev=2463.78
+    clat (usec): min=69, max=90628, avg=415.41, stdev=182.93
+     lat (usec): min=72, max=90632, avg=420.47, stdev=182.93
+    clat percentiles (usec):
+     |  1.00th=[  281],  5.00th=[  310], 10.00th=[  334], 20.00th=[  359],
+     | 30.00th=[  375], 40.00th=[  388], 50.00th=[  396], 60.00th=[  404],
+     | 70.00th=[  416], 80.00th=[  437], 90.00th=[  490], 95.00th=[  594],
+     | 99.00th=[  750], 99.50th=[  816], 99.90th=[ 2999], 99.95th=[ 4015],
+     | 99.99th=[ 5997]
+   bw (  KiB/s): min=436094, max=617371, per=75.45%, avg=458539.74, stdev=547.09, samples=3808
+   iops        : min=54498, max=77159, avg=57305.15, stdev=68.39, samples=3808
+  lat (usec)   : 100=0.02%, 250=0.27%, 500=90.80%, 750=7.90%, 1000=0.58%
+  lat (msec)   : 2=0.22%, 4=0.16%, 10=0.05%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.37%, sys=1.55%, ctx=4572981, majf=0, minf=494
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=4558375,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest9-blocksize8k-threads9-device1of4: (groupid=8, jobs=36): err= 0: pid=26422: Sun Jan 13 05:21:01 2019
+  read: IOPS=84.4k, BW=659MiB/s (691MB/s)(38.6GiB/60001msec)
+    slat (nsec): min=1974, max=88144, avg=5080.35, stdev=2542.30
+    clat (usec): min=50, max=59194, avg=420.64, stdev=185.60
+     lat (usec): min=70, max=59198, avg=425.78, stdev=185.61
+    clat percentiles (usec):
+     |  1.00th=[  258],  5.00th=[  306], 10.00th=[  326], 20.00th=[  355],
+     | 30.00th=[  375], 40.00th=[  388], 50.00th=[  396], 60.00th=[  412],
+     | 70.00th=[  424], 80.00th=[  449], 90.00th=[  515], 95.00th=[  611],
+     | 99.00th=[  766], 99.50th=[  840], 99.90th=[ 3195], 99.95th=[ 4080],
+     | 99.99th=[ 5932]
+   bw (  KiB/s): min=489490, max=684470, per=75.57%, avg=510240.39, stdev=531.79, samples=4284
+   iops        : min=61168, max=85545, avg=63765.37, stdev=66.48, samples=4284
+  lat (usec)   : 100=0.08%, 250=0.81%, 500=88.14%, 750=9.78%, 1000=0.75%
+  lat (msec)   : 2=0.22%, 4=0.18%, 10=0.05%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.41%, sys=1.54%, ctx=5081604, majf=0, minf=558
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=5064192,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+test1-subtest10-blocksize8k-threads10-device1of4: (groupid=9, jobs=40): err= 0: pid=26689: Sun Jan 13 05:21:01 2019
+  read: IOPS=93.7k, BW=732MiB/s (767MB/s)(42.9GiB/60002msec)
+    slat (nsec): min=1956, max=130631, avg=5334.23, stdev=2814.43
+    clat (usec): min=68, max=32148, avg=420.81, stdev=178.12
+     lat (usec): min=71, max=32156, avg=426.19, stdev=178.13
+    clat percentiles (usec):
+     |  1.00th=[  285],  5.00th=[  318], 10.00th=[  343], 20.00th=[  367],
+     | 30.00th=[  379], 40.00th=[  392], 50.00th=[  400], 60.00th=[  412],
+     | 70.00th=[  424], 80.00th=[  441], 90.00th=[  482], 95.00th=[  586],
+     | 99.00th=[  775], 99.50th=[  865], 99.90th=[ 3163], 99.95th=[ 3884],
+     | 99.99th=[ 5669]
+   bw (  KiB/s): min=719104, max=784777, per=99.96%, avg=749153.43, stdev=273.65, samples=4768
+   iops        : min=89886, max=98097, avg=93643.69, stdev=34.21, samples=4768
+  lat (usec)   : 100=0.03%, 250=0.24%, 500=91.75%, 750=6.65%, 1000=0.86%
+  lat (msec)   : 2=0.22%, 4=0.20%, 10=0.05%, 20=0.01%, 50=0.01%
+  cpu          : usr=0.42%, sys=1.59%, ctx=5642264, majf=0, minf=621
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=5621157,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=89.1MiB/s (93.4MB/s), 89.1MiB/s-89.1MiB/s (93.4MB/s-93.4MB/s), io=5346MiB (5606MB), run=60001-60001msec
+
+Run status group 1 (all jobs):
+   READ: bw=175MiB/s (184MB/s), 175MiB/s-175MiB/s (184MB/s-184MB/s), io=10.3GiB (11.0GB), run=60001-60001msec
+
+Run status group 2 (all jobs):
+   READ: bw=243MiB/s (255MB/s), 243MiB/s-243MiB/s (255MB/s-255MB/s), io=14.2GiB (15.3GB), run=60002-60002msec
+
+Run status group 3 (all jobs):
+   READ: bw=319MiB/s (335MB/s), 319MiB/s-319MiB/s (335MB/s-335MB/s), io=18.7GiB (20.1GB), run=60001-60001msec
+
+Run status group 4 (all jobs):
+   READ: bw=392MiB/s (411MB/s), 392MiB/s-392MiB/s (411MB/s-411MB/s), io=22.0GiB (24.6GB), run=60001-60001msec
+
+Run status group 5 (all jobs):
+   READ: bw=467MiB/s (489MB/s), 467MiB/s-467MiB/s (489MB/s-489MB/s), io=27.3GiB (29.4GB), run=60001-60001msec
+
+Run status group 6 (all jobs):
+   READ: bw=526MiB/s (551MB/s), 526MiB/s-526MiB/s (551MB/s-551MB/s), io=30.8GiB (33.1GB), run=60002-60002msec
+
+Run status group 7 (all jobs):
+   READ: bw=594MiB/s (622MB/s), 594MiB/s-594MiB/s (622MB/s-622MB/s), io=34.8GiB (37.3GB), run=60002-60002msec
+
+Run status group 8 (all jobs):
+   READ: bw=659MiB/s (691MB/s), 659MiB/s-659MiB/s (691MB/s-691MB/s), io=38.6GiB (41.5GB), run=60001-60001msec
+
+Run status group 9 (all jobs):
+   READ: bw=732MiB/s (767MB/s), 732MiB/s-732MiB/s (767MB/s-767MB/s), io=42.9GiB (46.0GB), run=60002-60002msec
+
+Disk stats (read/write):
+  dm-20: ios=8622474/0, merge=0/0, ticks=3550381/0, in_queue=3580087, util=100.00%
+
+Disk stats (read/write):
+  sdbq: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdcx: ios=4311259/0, merge=0/0, ticks=1725186/0, in_queue=1724831, util=93.10%
+
+Disk stats (read/write):
+  sdaj: ios=4311258/0, merge=0/0, ticks=1718796/0, in_queue=1718518, util=93.06%
+
+Disk stats (read/write):
+  sdc: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  dm-21: ios=8778753/0, merge=0/0, ticks=3543773/0, in_queue=3572131, util=99.99%
+
+Disk stats (read/write):
+  sddk: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdcd: ios=4389509/0, merge=0/0, ticks=1719732/0, in_queue=1719452, util=92.99%
+
+Disk stats (read/write):
+  sdaw: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdp: ios=4389510/0, merge=0/0, ticks=1715188/0, in_queue=1714904, util=92.97%
+
+Disk stats (read/write):
+  dm-22: ios=8713150/0, merge=0/0, ticks=3549291/0, in_queue=3579258, util=100.00%
+
+Disk stats (read/write):
+  sdbb: ios=4356708/0, merge=0/0, ticks=1718997/0, in_queue=1718703, util=93.16%
+
+Disk stats (read/write):
+  sdci: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdu: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sddp: ios=4356708/0, merge=0/0, ticks=1722122/0, in_queue=1721837, util=93.16%
+
+Disk stats (read/write):
+  dm-23: ios=8791674/0, merge=0/0, ticks=3545025/0, in_queue=3584948, util=100.00%
+
+Disk stats (read/write):
+  sddq: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdbc: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=0.00%
+
+Disk stats (read/write):
+  sdcj: ios=4395964/0, merge=0/0, ticks=1720907/0, in_queue=1720644, util=93.05%
+
+Disk stats (read/write):
+  sdv: ios=4395963/0, merge=0/0, ticks=1715540/0, in_queue=1715274, util=93.03%
