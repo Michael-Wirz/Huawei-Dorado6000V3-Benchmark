@@ -1,0 +1,182 @@
+[global]
+ioengine=libaio
+invalidate=1
+ramp_time=5
+iodepth=1
+runtime=180
+time_based
+direct=1
+group_reporting=1
+per_job_logs=0
+bs=1024k
+rw=write
+[test1-subtest1-blocksize1024k-threads1-device1of5]
+ stonewall
+ numjobs=1
+ filename=/dev/mapper/device01
+[test1-subtest1-blocksize1024k-threads1-device2of5]
+ numjobs=1
+ filename=/dev/mapper/device02
+[test1-subtest1-blocksize1024k-threads1-device3of5]
+ numjobs=1
+ filename=/dev/mapper/device03
+[test1-subtest1-blocksize1024k-threads1-device4of5]
+ numjobs=1
+ filename=/dev/mapper/device04
+[test1-subtest1-blocksize1024k-threads1-device5of5]
+ numjobs=1
+ filename=/dev/mapper/device05
+ 
+[test1-subtest5-blocksize1024k-threads5-device1of5]
+ stonewall
+ numjobs=5
+ filename=/dev/mapper/device01
+[test1-subtest5-blocksize1024k-threads5-device2of5]
+ numjobs=5
+ filename=/dev/mapper/device02
+[test1-subtest5-blocksize1024k-threads5-device3of5]
+ numjobs=5
+ filename=/dev/mapper/device03
+[test1-subtest5-blocksize1024k-threads5-device4of5]
+ numjobs=5
+ filename=/dev/mapper/device04
+[test1-subtest5-blocksize1024k-threads5-device5of5]
+ numjobs=5
+ filename=/dev/mapper/device05
+ 
+[test1-subtest10-blocksize1024k-threads10-device1of5]
+ stonewall
+ numjobs=10
+ filename=/dev/mapper/device01
+[test1-subtest10-blocksize1024k-threads10-device2of5]
+ numjobs=10
+ filename=/dev/mapper/device02
+[test1-subtest10-blocksize1024k-threads10-device3of5]
+ numjobs=10
+ filename=/dev/mapper/device03
+[test1-subtest10-blocksize1024k-threads10-device4of5]
+ numjobs=10
+ filename=/dev/mapper/device04
+[test1-subtest10-blocksize1024k-threads10-device5of5]
+ numjobs=10
+ filename=/dev/mapper/device05
+ 
+[test1-subtest15-blocksize1024k-threads15-device1of5]
+ stonewall
+ numjobs=15
+ filename=/dev/mapper/device01
+[test1-subtest15-blocksize1024k-threads15-device2of5]
+ numjobs=15
+ filename=/dev/mapper/device02
+[test1-subtest15-blocksize1024k-threads15-device3of5]
+ numjobs=15
+ filename=/dev/mapper/device03
+[test1-subtest15-blocksize1024k-threads15-device4of5]
+ numjobs=15
+ filename=/dev/mapper/device04
+[test1-subtest15-blocksize1024k-threads15-device5of5]
+ numjobs=15
+ filename=/dev/mapper/device05
+ 
+[test1-subtest20-blocksize1024k-threads20-device1of5]
+ stonewall
+ numjobs=20
+ filename=/dev/mapper/device01
+[test1-subtest20-blocksize1024k-threads20-device2of5]
+ numjobs=20
+ filename=/dev/mapper/device02
+[test1-subtest20-blocksize1024k-threads20-device3of5]
+ numjobs=20
+ filename=/dev/mapper/device03
+[test1-subtest20-blocksize1024k-threads20-device4of5]
+ numjobs=20
+ filename=/dev/mapper/device04
+[test1-subtest20-blocksize1024k-threads20-device5of5]
+ numjobs=20
+ filename=/dev/mapper/device05
+ 
+[test1-subtest30-blocksize1024k-threads30-device1of5]
+ stonewall
+ numjobs=30
+ filename=/dev/mapper/device01
+[test1-subtest30-blocksize1024k-threads30-device2of5]
+ numjobs=30
+ filename=/dev/mapper/device02
+[test1-subtest30-blocksize1024k-threads30-device3of5]
+ numjobs=30
+ filename=/dev/mapper/device03
+[test1-subtest30-blocksize1024k-threads30-device4of5]
+ numjobs=30
+ filename=/dev/mapper/device04
+[test1-subtest30-blocksize1024k-threads30-device5of5]
+ numjobs=30
+ filename=/dev/mapper/device05
+ 
+[test1-subtest40-blocksize1024k-threads40-device1of5]
+ stonewall
+ numjobs=40
+ filename=/dev/mapper/device01
+[test1-subtest40-blocksize1024k-threads40-device2of5]
+ numjobs=40
+ filename=/dev/mapper/device02
+[test1-subtest40-blocksize1024k-threads40-device3of5]
+ numjobs=40
+ filename=/dev/mapper/device03
+[test1-subtest40-blocksize1024k-threads40-device4of5]
+ numjobs=40
+ filename=/dev/mapper/device04
+[test1-subtest40-blocksize1024k-threads40-device5of5]
+ numjobs=40
+ filename=/dev/mapper/device05
+ 
+[test1-subtest50-blocksize1024k-threads50-device1of5]
+ stonewall
+ numjobs=50
+ filename=/dev/mapper/device01
+[test1-subtest50-blocksize1024k-threads50-device2of5]
+ numjobs=50
+ filename=/dev/mapper/device02
+[test1-subtest50-blocksize1024k-threads50-device3of5]
+ numjobs=50
+ filename=/dev/mapper/device03
+[test1-subtest50-blocksize1024k-threads50-device4of5]
+ numjobs=50
+ filename=/dev/mapper/device04
+[test1-subtest50-blocksize1024k-threads50-device5of5]
+ numjobs=50
+ filename=/dev/mapper/device05
+ 
+[test1-subtest75-blocksize1024k-threads75-device1of5]
+ stonewall
+ numjobs=75
+ filename=/dev/mapper/device01
+[test1-subtest75-blocksize1024k-threads75-device2of5]
+ numjobs=75
+ filename=/dev/mapper/device02
+[test1-subtest75-blocksize1024k-threads75-device3of5]
+ numjobs=75
+ filename=/dev/mapper/device03
+[test1-subtest75-blocksize1024k-threads75-device4of5]
+ numjobs=75
+ filename=/dev/mapper/device04
+[test1-subtest75-blocksize1024k-threads75-device5of5]
+ numjobs=75
+ filename=/dev/mapper/device05
+ 
+[test1-subtest100-blocksize1024k-threads100-device1of5]
+ stonewall
+ numjobs=100
+ filename=/dev/mapper/device01
+[test1-subtest100-blocksize1024k-threads100-device2of5]
+ numjobs=100
+ filename=/dev/mapper/device02
+[test1-subtest100-blocksize1024k-threads100-device3of5]
+ numjobs=100
+ filename=/dev/mapper/device03
+[test1-subtest100-blocksize1024k-threads100-device4of5]
+ numjobs=100
+ filename=/dev/mapper/device04
+[test1-subtest100-blocksize1024k-threads100-device5of5]
+ numjobs=100
+ filename=/dev/mapper/device05
+ 
